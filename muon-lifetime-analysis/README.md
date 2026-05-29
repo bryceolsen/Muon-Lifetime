@@ -95,10 +95,13 @@ The measured value is slightly low but reasonably consistent given detector effe
 
 ## Scripts
 
-Main candidate-only fit script:
+Main candidate-only fit scripts:
 
 ```bash
-python3 fit_muon_lifetime.py
+python3 fit_muon_lifetime2.py
+```
+```bash
+python3 fit_muon_lifetime_simple.py
 ```
 
 Comparison-table / cut-scan script:
