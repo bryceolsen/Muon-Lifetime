@@ -134,24 +134,3 @@ Main packages used:
 * `matplotlib`
 * `scipy`
 * `uproot`
-
-## Data
-
-Raw ROOT data files are **not included** in this repository.
-
-The code expects local ROOT files from the DiRPi detector setup. File paths should be edited inside the Python scripts to match the local machine.
-
-## Notes
-
-This repository contains analysis code and selected output summaries only. Large ROOT files, generated plots, and intermediate result folders should generally be excluded from GitHub using `.gitignore`.
-
-Recommended `.gitignore` entries include:
-
-```gitignore
-*.root
-__pycache__/
-*.pyc
-.DS_Store
-results/
-results*/
-```
